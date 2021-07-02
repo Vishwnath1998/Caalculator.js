@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script src="/result.js"></script>
+
+<body>
+    <div class="container">
+
+        <div class="result" id="result">
+        </div>
+        <div class="keyboard">
+            <div class="row">
+                <button onclick="update(1)">
+                    1
+                </button>
+                <button onclick="update(2)">
+                    2
+                </button>
+                <button onclick="update(3)">
+                    3
+                </button>
+            </div>
+            <div class="row">
+                <button onclick="update(4)">
+                    4
+                </button>
+                <button onclick="update(5)">
+                    5
+                </button>
+                <button onclick="update(6)">
+                    6
+                </button>
+            </div>
+            <div class="row">
+                <button onclick="update(7)">
+                    7
+                </button>
+                <button onclick="update(8)">
+                    8
+                </button>
+                <button onclick="update(9)">
+                    9
+                </button>
+            </div>
+            <div class="row">
+                <button onclick="update('/')">
+                    /
+                </button>
+                <button onclick="update('*')">
+                    *
+                </button>
+                <button onclick="update('-')">
+                    _
+                </button>
+            </div>
+            <div class="row">
+                <button onclick="update('+')">
+                    +
+                </button>
+                <button onclick="solve()">
+                    =
+                </button>
+                <button onclick="update('.')">
+                    .
+                </button>
+            </div>
+            <div class="row1">
+                <button onclick="erase()">
+                    Delete
+                </button>
+                <button onclick="reset()">
+                    Reset
+                </button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
